@@ -1,0 +1,167 @@
+body {
+    background: linear-gradient(to right, #000c67, #007be5);   
+    height: 100vh;
+    padding: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+h2 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.logo-imag {
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+p {
+    color: black;
+    font-size: 1.5rem;
+    text-align: center;  
+}
+.inte{
+    color: whitesmoke;
+    font-size: 1.5rem;
+    text-align: center; 
+}
+
+/* Estilo de la sección de integrantes */
+.sombra {
+    background: linear-gradient(to right, rgb(232, 5, 5), rgba(137, 18, 18, 0.993));
+    padding: 50px;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    box-sizing: border-box;
+}
+
+.cuadro .fila {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cuadro .fila .col {
+    text-align: center;
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.cuadro .fila .col .card {
+    border: 2px solid #8d8d8d;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cuadro .icon {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color: lightgray;
+    object-fit: cover;
+}
+
+.btn {
+    background-color: #007be5;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Media Queries para diseño responsivo */
+@media (max-width: 1024px) {
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    .cuadro .fila .col {
+        width: 45%;
+    }
+
+    .sombra {
+        padding: 40px;
+    }
+}
+
+@media (max-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+
+    .cuadro .fila .col {
+        width: 100%;
+    }
+
+    .sombra {
+        padding: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        padding: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    .logo-imag {
+        height: 80px;
+    }
+
+    p {
+        font-size: 1.2rem;
+    }
+
+    .sombra {
+        padding: 20px;
+    }
+
+    .cuadro .fila .col {
+        margin-bottom: 15px;
+    }
+
+    .cuadro .icon {
+        width: 100px;
+        height: 100px;
+    }
+
+    .btn {
+        padding: 8px 16px;
+    }
+}
