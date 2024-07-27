@@ -323,6 +323,7 @@ h5 {
     color: white;
     font-weight: bold;
 }
+
 .html{
     
     background-color: #269a06;
@@ -343,7 +344,7 @@ h5 {
 .C{
     
     background-color: #e9b714;
-   animation: fillJavascript forwards;
+   animation: fillC forwards;
 }
 
 @keyframes fillhtml{
@@ -369,7 +370,6 @@ h5 {
     0%{width: 0;}
     100%{width: 70%}
     
-
 }
 /* SECCION T R A B A J O S */
 .trabajos{
