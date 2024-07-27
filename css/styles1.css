@@ -338,14 +338,14 @@ h5 {
 .Javascript{
     
     background-color: #f32121;
-   animation: fillJavascript forwards;
+   animation: fillJavascript 2s forwards;
 }
 
-.C{
-    
+.char{
     background-color: #e9b714;
-   animation: fillC forwards;
+    animation: fillchar 2s forwards;
 }
+
 
 @keyframes fillhtml{
     0%{width: 0;}
@@ -366,7 +366,7 @@ h5 {
 
 }
 
-@keyframes fillC{
+@keyframes fillchar{
     0%{width: 0;}
     100%{width: 70%}
     
