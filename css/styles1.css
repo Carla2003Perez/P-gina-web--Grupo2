@@ -340,6 +340,12 @@ h5 {
    animation: fillJavascript forwards;
 }
 
+.C{
+    
+    background-color: #e9b714;
+   animation: fillJavascript forwards;
+}
+
 @keyframes fillhtml{
     0%{width: 0;}
     100%{width: 60%}
@@ -355,6 +361,13 @@ h5 {
 @keyframes fillJavascript{
     0%{width: 0;}
     100%{width: 50%}
+    
+
+}
+
+@keyframes fillC{
+    0%{width: 0;}
+    100%{width: 70%}
     
 
 }
